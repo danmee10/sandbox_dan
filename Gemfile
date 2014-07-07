@@ -20,8 +20,22 @@ gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
 
+gem "figaro"
+
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-linkedin'
+
+
 group :doc do
   gem 'sdoc', require: false
+end
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 
