@@ -22,6 +22,9 @@ gem 'jbuilder', '~> 1.2'
 
 gem "figaro"
 
+gem 'capistrano'
+gem 'rvm-capistrano'
+
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
