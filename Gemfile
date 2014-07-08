@@ -24,6 +24,7 @@ gem "figaro"
 
 gem 'capistrano'
 gem 'rvm-capistrano'
+gem 'net-ssh', '2.7.0'
 
 gem 'devise'
 gem 'omniauth'

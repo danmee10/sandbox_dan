@@ -1,4 +1,4 @@
-root = "/home/dmee/projects/sandbox_dan/current"
+root = "/home/dmee/projects/sandbox_dan"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
